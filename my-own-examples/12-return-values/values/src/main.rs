@@ -7,6 +7,6 @@ fn split_string(s: String, delimiter: char, field: usize) -> String {
 }
 
 fn main() {
-    let chunk = split_string("hello,world".to_string(), ',', 1);
+    let chunk = split_string("min,su,wai".to_string(), ',', 2);
     println!("Split string: {}", chunk);
 }
